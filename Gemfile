@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rails', '4.0.0.beta1'
+gem 'devise', '2.2.3', git: "git@github.com:plataformatec/devise.git", branch: "rails4"
 
 group :test do
   gem "activerecord"
